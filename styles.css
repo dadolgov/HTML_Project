@@ -28,7 +28,7 @@ h2{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap:3vh;
-
+    margin-bottom: 5vh;
 }
 
 header{
@@ -50,7 +50,7 @@ nav{
 aside{
     margin:0;
     background-color: #BEFCAE;
-    
+    padding-left: 2vh;
 }
 
 main{
@@ -61,10 +61,28 @@ main{
 }
 #text_content{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     font-style: italic;
+    margin-bottom: 5vh;
+    text-indent: 70px;
+}
+
+#text_content .img-right{
+    float:right;
+    margin-left: 2vh;
+}
+#text_content .img-left{
+    float:left;
+    margin-right:2vh;
 }
 
 .thumbnail-card{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size:large;
     text-align: center;
+}
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
 }
