@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 h1{
     margin-top: 0;
@@ -23,6 +24,7 @@ h2{
     height:75vh;
     grid-template-columns: 1fr 8fr 1fr;
 }
+
 .grid-thumbnail{
     display:grid;
     grid-template-rows: 1fr 1fr;
@@ -37,27 +39,29 @@ header{
     background-origin:unset;
     background-position-y: -75vh;
     background-color: bisque;
-    
     text-align: center;
     border-bottom: 1px solid black;
     height: 25vh;
 }
 nav{
     margin:0;
-    background-color: #BEFCAE;
+    background:linear-gradient(#BEFCAE, rgb(215, 241, 219) 75%);
 }
+
 
 aside{
     margin:0;
-    background-color: #BEFCAE;
+    background:linear-gradient(#BEFCAE, rgb(215, 241, 219) 75%);
     padding-left: 2vh;
+    padding-top: 50vh;
 }
 
 main{
     margin:0;
     padding-left:3%;
     padding-right:3%;
-    background-color:blanchedalmond;
+    padding-bottom: 3vh;
+    background:linear-gradient(blanchedalmond, rgb(255, 245, 230) 75%);
 }
 #text_content{
     font-family: Arial, Helvetica, sans-serif;
@@ -65,6 +69,7 @@ main{
     font-style: italic;
     margin-bottom: 5vh;
     text-indent: 70px;
+    line-height: 1.7;
 }
 
 #text_content .img-right{
@@ -74,6 +79,7 @@ main{
 #text_content .img-left{
     float:left;
     margin-right:2vh;
+    margin-bottom:3vh;
 }
 
 .thumbnail-card{
@@ -81,6 +87,11 @@ main{
     font-style: italic;
     font-size:large;
     text-align: center;
+}
+.back-to-main{
+    padding-left:85%;
+    padding-bottom:3vh;
+    font-style: italic;
 }
 ul{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
